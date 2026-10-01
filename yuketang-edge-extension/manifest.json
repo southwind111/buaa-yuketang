@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "雨课堂视频自动切换（Edge）",
+  "version": "1.2.9",
+  "description": "从所选目录视频开始播放；切换中保持运行状态，拒播时单独授权播放。",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://buaa.yuketang.cn/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
