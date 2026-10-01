@@ -3,12 +3,11 @@ it's an attempt for scrolling through buaa-yuketang videos automatically.
 雨课堂 Edge 扩展迁移指令（v1.2.9）
 
 一、把安装包带到新电脑
-1. 下载 yuketang-edge-extension.zip。
-2. 用 U 盘、网盘或其他你信任的方式把 ZIP 复制到新电脑。
-3. 在新电脑把 ZIP 解压到一个固定目录，例如：
+1. 下载 yuketang-edge-extension。
+2. 在新电脑把文件放置到一个固定目录，例如：
    %USERPROFILE%\Documents\YuketangEdgeExtension
-4. 打开解压后的目录，确认里面直接能看到 manifest.json、content.js 和 README.txt。
-   Edge 要加载这个目录；不要选择 ZIP 文件，也不要选外层又套了一层同名目录的文件夹。
+3. 打开相应的目录，确认里面直接能看到 manifest.json、content.js 和 README.txt。
+   Edge 要加载这个目录；不要选择 其他文件，也不要选外层又套了一层同名目录的文件夹。
 
 二、在新电脑的 Edge 安装
 1. 打开 Edge，在地址栏输入 edge://extensions 并回车。
